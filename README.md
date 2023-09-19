@@ -1,3 +1,3 @@
-# Govee Light Strip
+# Eglo/AwoX Light
 
-RGB Light Strip steuern.
+RGB Light control.
