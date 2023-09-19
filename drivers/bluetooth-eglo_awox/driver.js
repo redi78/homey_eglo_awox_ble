@@ -46,7 +46,7 @@ class Eglo_Awox_SmartlightDriver extends Homey.Driver {
                 const manufacturerID = bleAdvertisements[i].manufacturerData.readInt16LE();
                 this.log("Found a device with manufacturer ID:", manufacturerID);
 
-                if (manufacturerID === 0x0160) {
+                if (manufacturerID == 0x0160) {
                     this.log("Connecting to an Eglo_AwoX device...");
                     // Connect to the BLE device
                     const blePeripheral = await bleAdvertisements[i].connect();
