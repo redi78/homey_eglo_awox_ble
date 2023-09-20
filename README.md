@@ -1,4 +1,4 @@
-# Eglo/AwoX SmartLight
+# Eglo/AwoX SmartLight for Athom Homey
 
 Adds support for Eglo/AwoX SmartLight Devices.
 
